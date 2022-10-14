@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap');
+
+:root {
+    --light-color: #f3f3fe;
+    --dark-color: #363636;
+    --title-font-family: 'Playfair Display', 'serif';
+    --body-font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: var(--body-font-family);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 16px;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 0 auto;
+    width: 1080px;
+    height: 600px;
+    background-image: url(./images/cordoba-bckground.jpeg);
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+.hero-title, 
+.hero-subtitle {
+    font-family: var(--title-font-family);
+    color: var(--light-color);    
+    text-shadow: 0px 0px 4px black;
+}
+
+.hero-title {
+    padding: 5px 10px;
+    margin: 250px 0 10px 0;
+    font-size: 4rem;
+    font-weight: 300;    
+}
+
+.hero-subtitle {
+    margin: 0;
+    padding: 5px 10px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.hero-blur {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+/* Activity Section  */
+.act-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #947E5F;
+    height: 400px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.act-title h3 {
+    margin: 10px auto 10px auto;
+    font-family: var(--title-font-family);
+    color: var(--light-color);
+    text-shadow: 0px 0px 4px black;
+    font-size: 18px;
+}
+
+.act-section {
+    width: 200px;
+    height: 220px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* GUIDE SECTION  */
+
+.guide-card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 450px;
+    margin: 50px auto;
+    height: 294px;
+    background: #967547;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.guide-img {
+    width: 180px;
+    border-radius: 10px;
+    margin: 23px 0px 23px 13px;
+}
+
+.guide-card p {
+    font-style: italic;
+    padding: auto 5px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.guide-body h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.guide-body {
+    margin: 30px 11px 80px 8px;
+}
+
+/* FOOTER SECTION */
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-top: 1px solid var(--dark-color);
+    margin: 0 500px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list-link {
+    color: var(--dark-color);
+}
+
+.list-item {
+    font-size: 25px;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto 10px auto;
+    padding: 0;
+}
